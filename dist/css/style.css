@@ -1,0 +1,278 @@
+.nav-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.nav-block ul {
+  background-color: white;
+  text-align: center;
+}
+.nav-block li {
+  display: inline-block;
+  padding-left: 3rem;
+  font-weight: 700;
+}
+.nav-block a {
+  color: hsl(233deg, 8%, 79%);
+  text-decoration: none;
+}
+.nav-block a:hover {
+  color: hsl(35deg, 77%, 62%);
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-block {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+}
+.article-block .content-block {
+  margin-right: 2rem;
+}
+.article-block .article__img {
+  width: 100%;
+  height: 50%;
+}
+.article-block .article__img img {
+  width: 100%;
+  height: 100%;
+}
+.article-block .article__block {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.article-block .article__title h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+.article-block .article__paragraph {
+  font-size: 1.1rem;
+}
+.article-block .article__button {
+  background-color: hsl(5deg, 85%, 63%);
+  color: hsl(36deg, 100%, 99%);
+  border: none;
+  margin-top: 2em;
+  letter-spacing: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 180px;
+  height: 40px;
+  text-transform: uppercase;
+}
+.article-block .article__button:hover {
+  background-color: hsl(240deg, 100%, 5%);
+  border: transparent;
+  cursor: pointer;
+}
+
+.aside-block {
+  display: flex;
+  flex-direction: column;
+}
+.aside-block .aside__card {
+  height: 100%;
+  background-color: hsl(240deg, 100%, 5%);
+  padding: 1.5em 1.5em 1.5em 2.5em;
+  color: hsl(36deg, 100%, 99%);
+}
+.aside-block .aside__card--title {
+  font-size: 1.2rem;
+}
+.aside-block .aside__card--title h1 {
+  color: hsl(35deg, 77%, 62%);
+}
+.aside-block .aside__card--item__title {
+  margin-bottom: 1em;
+}
+.aside-block .aside__card--item__title a {
+  text-decoration: none;
+  color: hsl(36deg, 100%, 99%);
+}
+.aside-block .aside__card--item__title a:hover {
+  color: hsl(35deg, 77%, 62%);
+}
+.aside-block .aside__card--item__description {
+  width: 85%;
+}
+.aside-block hr {
+  border-bottom: 1px solid hsl(236deg, 13%, 42%);
+  margin-top: 2em;
+}
+
+.card-block {
+  margin-top: 5em;
+}
+.card-block .card {
+  justify-content: space-between;
+}
+.card-block .card__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-block .card__img img {
+  width: 120px;
+}
+.card-block .card--description {
+  margin-left: 1.5em;
+}
+.card-block .card--number {
+  margin-bottom: 0.5em;
+}
+.card-block .card--number h2 {
+  font-size: 2rem;
+  color: hsl(233deg, 8%, 79%);
+}
+.card-block .card__title {
+  margin-bottom: 0.5em;
+}
+.card-block .card__title h3 {
+  font-weight: 800;
+}
+.card-block .card__title h3:hover {
+  color: hsl(5deg, 85%, 63%);
+  cursor: pointer;
+}
+.card-block .card__paragraph {
+  color: hsl(236deg, 13%, 42%);
+  font-size: 1.15rem;
+  line-height: 1.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 4rem auto;
+  width: 66%;
+  font-family: "Inter";
+  font-size: 100%;
+}
+
+.attribution {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* align */
+.text-center {
+  text-align: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+z .justify-start {
+  justify-content: start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.content-center {
+  align-content: center;
+}/*# sourceMappingURL=style.css.map */

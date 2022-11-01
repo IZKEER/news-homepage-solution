@@ -1,0 +1,23 @@
+.nav-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.nav-block ul {
+  background-color: white;
+  text-align: center;
+}
+.nav-block li {
+  display: inline-block;
+  padding-left: 3rem;
+  font-weight: 700;
+}
+.nav-block a {
+  color: hsl(233deg, 8%, 79%);
+  text-decoration: none;
+}
+.nav-block a:hover {
+  color: hsl(35deg, 77%, 62%);
+}/*# sourceMappingURL=navbar.css.map */

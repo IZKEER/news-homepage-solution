@@ -1,0 +1,38 @@
+.card-block {
+  margin-top: 5em;
+}
+.card-block .card {
+  justify-content: space-between;
+}
+.card-block .card__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-block .card__img img {
+  width: 120px;
+}
+.card-block .card--description {
+  margin-left: 1.5em;
+}
+.card-block .card--number {
+  margin-bottom: 0.5em;
+}
+.card-block .card--number h2 {
+  font-size: 2rem;
+  color: hsl(233deg, 8%, 79%);
+}
+.card-block .card__title {
+  margin-bottom: 0.5em;
+}
+.card-block .card__title h3 {
+  font-weight: 800;
+}
+.card-block .card__title h3:hover {
+  color: hsl(5deg, 85%, 63%);
+  cursor: pointer;
+}
+.card-block .card__paragraph {
+  color: hsl(236deg, 13%, 42%);
+  font-size: 1.15rem;
+  line-height: 1.5em;
+}/*# sourceMappingURL=cards.css.map */

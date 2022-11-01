@@ -1,0 +1,46 @@
+@use 'variables';
+
+.aside-block {
+    display: flex;
+    flex-direction: column;
+
+    .aside__card {
+        height: 100%;
+        background-color: variables.$very-dark-blue;
+        padding: 1.5em 1.5em 1.5em 2.5em;
+        color: variables.$off-white;
+    }
+
+    .aside__card--title {
+        font-size: 1.2rem;
+
+        h1 {
+            color: variables.$soft-orange;
+        }
+
+    }
+
+    .aside__card--item__title {
+        margin-bottom: 1em;
+
+        a {
+            text-decoration: none;
+            color: variables.$off-white;
+
+            &:hover {
+                color: variables.$soft-orange;
+            }
+        }
+
+
+    }
+
+    .aside__card--item__description {
+        width: 85%;
+    }
+
+    hr {
+        border-bottom: 1px solid variables.$dark-grayish-blue;
+        margin-top: 2em;
+    }
+}

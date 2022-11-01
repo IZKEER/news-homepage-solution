@@ -1,0 +1,12 @@
+// primary-colors
+$soft-orange: hsl(35, 77%, 62%);
+$soft-red: hsl(5, 85%, 63%);
+
+//neutral-colors
+$off-white: hsl(36, 100%, 99%);
+$orayish-blue: hsl(233, 8%, 79%);
+$dark-grayish-blue: hsl(236, 13%, 42%);
+$very-dark-blue: hsl(240, 100%, 5%);
+
+//to use any of the variables names into a file, simply use the variable path 
+//*-- eg: color: variables.$soft-orange;

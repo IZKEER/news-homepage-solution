@@ -1,0 +1,29 @@
+@use 'variables';
+
+.nav-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    ul {
+        background-color: white;
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        padding-left: 3rem;
+        font-weight: 700;
+    }
+
+    a {
+        color: variables.$orayish-blue;
+        text-decoration: none;
+
+        &:hover {
+            color: variables.$soft-orange;
+        }
+    }
+}

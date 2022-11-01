@@ -1,0 +1,53 @@
+@use 'variables';
+
+.card-block {
+    margin-top: 5em;
+
+    .card {
+        justify-content: space-between;
+    }
+
+    .card__img {
+        object-fit: cover;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .card--description {
+        margin-left: 1.5em;
+    }
+
+    .card--number {
+        margin-bottom: 0.5em;
+
+        h2 {
+            font-size: 2rem;
+            color: variables.$orayish-blue;
+        }
+    }
+
+    .card__title {
+        margin-bottom: 0.5em;
+
+        h3 {
+            font-weight: 800;
+
+            &:hover {
+                color: variables.$soft-red;
+                cursor: pointer;
+
+            }
+        }
+
+    }
+
+    .card__paragraph {
+        color: variables.$dark-grayish-blue;
+        font-size: 1.15rem;
+        line-height: 1.5em;
+
+    }
+
+}

@@ -1,0 +1,95 @@
+@use 'variables';
+@use 'navbar';
+@use 'main';
+@use 'article';
+@use 'new';
+@use 'cards';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 4rem auto;
+    width: 66%;
+    font-family: 'Inter';
+    font-size: 100%;
+}
+
+.attribution {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//for loop for sass col-variables using from 1 to 12
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        width: calc($i * 100% / 12);
+    }
+}
+
+//predefined styles
+
+.flex {
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* align */
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+z .justify-start {
+    justify-content: start;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.content-center {
+    align-content: center;
+}
